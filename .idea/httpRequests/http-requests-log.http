@@ -2,6 +2,14 @@ GET http://localhost:8100/currency-converter/form/NIS/to/USD/100
 Accept: */*
 Cache-Control: no-cache
 
+<> 2019-02-14T095600.200.json
+
+###
+
+GET http://localhost:8100/currency-converter/form/NIS/to/USD/100
+Accept: */*
+Cache-Control: no-cache
+
 <> 2019-02-14T093405.200.json
 
 ###
