@@ -1,9 +1,0 @@
-{
-  "id": 1,
-  "from": "NIS",
-  "to": "USD",
-  "currencyMultiple": 0.27,
-  "quantity": 100,
-  "totalCalculatedAmount": 27.00,
-  "port": 8000
-}
