@@ -1,5 +1,7 @@
 package com.tikal.springcloud.currencyconversionservice;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
@@ -15,11 +17,14 @@ import java.util.Map;
 @RestController
 public class CurrencyConversionController {
 
+    private static final Logger LOGGER = LoggerFactory.getLogger(CurrencyConversionController.class);
+
     @Autowired
     CurrencyExchangeClientProxy currencyExchangeClientProxy;
 
     @GetMapping("currency-converter-feign/form/{from}/to/{to}/{quantity}")
     public CurrencyConversionBean convertCurrencyFeign(@PathVariable String from, @PathVariable String to, @PathVariable BigDecimal quantity) {
+        LOGGER.info("convertCurrencyFeign() from={}, to={}, quantity={}",from,to,quantity);
 
         ExchangeValue exchangeValue = currencyExchangeClientProxy.retrieveExchangeValue(from,to);
 
