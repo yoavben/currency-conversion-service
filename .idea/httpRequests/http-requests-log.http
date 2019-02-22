@@ -2,6 +2,84 @@ GET http://localhost:8100/currency-converter-feign/form/USD/to/NIS/100
 Accept: */*
 Cache-Control: no-cache
 
+<> 2019-02-22T114059.200.json
+
+###
+
+GET http://localhost:8100/currency-converter-feign/form/USD/to/NIS/100
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8100/currency-converter-feign/form/USD/to/NIS/100
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-22T113917.200.json
+
+###
+
+GET http://localhost:8100/currency-converter-feign/form/USD/to/NIS/100
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-22T113812.200.json
+
+###
+
+GET http://localhost:8100/currency-converter-feign/form/USD/to/NIS/100
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-22T113617.500.json
+
+###
+
+GET http://localhost:8100/currency-converter-feign/form/USD/to/NIS/100
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-17T065109.200.json
+
+###
+
+GET http://localhost:8100/currency-converter-feign/form/USD/to/NIS/100
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-17T065101.200.json
+
+###
+
+GET http://localhost:8100/currency-converter-feign/form/USD/to/NIS/100
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-17T064203.200.json
+
+###
+
+GET http://localhost:8100/currency-converter-feign/form/USD/to/NIS/100
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-17T064157.200.json
+
+###
+
+GET http://localhost:8100/currency-converter-feign/form/USD/to/NIS/100
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-15T060151.200.json
+
+###
+
+GET http://localhost:8100/currency-converter-feign/form/USD/to/NIS/100
+Accept: */*
+Cache-Control: no-cache
+
 <> 2019-02-15T055130.200.json
 
 ###
